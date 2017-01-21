@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/almanac/almanac",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "老黄历",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#e82107",
+    "color": "#707070",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/almanac/almanac",
+      "text": "黄历",
+      "iconPath": "images/almanac.png",
+      "selectedIconPath": "images/almanac-selected.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我",
+      "iconPath": "images/me.png",
+      "selectedIconPath": "images/me-selected.png"
+    }]
+  }
+}

@@ -1,0 +1,154 @@
+/* pages/almanac/almanac.wxss */
+.content{
+    background: ghostwhite;
+    min-height: 100%;
+}
+
+.lunar {
+    display: flex;
+    justify-content: center;
+}
+
+.lunar text{
+    color: red;
+    font-size: 25px;
+    margin-top: 60rpx;
+    margin-bottom: 20rpx;
+    font-style: normal;
+}
+
+.support {
+    width: 650rpx;
+    height: 840rpx;
+    background: white;
+    border-radius: 8%;
+    margin-top: 20rpx;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 0rpx 0rpx 8rpx gainsboro;
+}
+
+.yi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yi-item1 {
+    width: 70rpx;
+    height: 70rpx;
+    padding-top: 40rpx;
+    padding-bottom: 20rpx;
+}
+
+.yi-item2 {
+    font-size: 18px;
+    font-family: "宋体","楷体","微软雅黑", Microsoft YaHei;
+    color: #09bb07;
+}
+
+.wuxing {
+    font-size: 16px;
+    margin: 40rpx 0px 30rpx 20rpx;
+}
+
+.wuxing text {
+    color: gray;
+}
+
+.chongsha {
+    font-size: 16px;
+    margin: 20rpx;
+}
+
+.chongsha text {
+    color: gray;
+}
+
+.baiji {
+    font-size: 16px;
+    margin: 20rpx;
+}
+
+.baiji text {
+    color:gray;
+}
+
+.yiqu {
+    font-size: 16px;
+    margin: 20rpx;
+}
+
+.xiongshen {
+    font-size: 16px;
+    margin: 20rpx;
+    color: red;
+}
+
+.xiongshen text {
+    color: gray;
+}
+
+.jishen {
+    font-size: 16px;
+    margin: 20rpx;
+    color: green;
+}
+
+.jishen text {
+    color: gray;
+}
+
+.ji-item1 {
+    width: 32rpx;
+    height: 32rpx;
+    margin-left: 20rpx;
+    margin-top: 40rpx;
+}
+
+.ji-item2 {
+    width: 12px;
+    margin: 20rpx;
+}
+.userinfo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.userinfo-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 40rpx;
+  margin-left: 80rpx;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+.line-yangli {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.yangli {
+    color: gray;
+    font-size: 13px;
+    margin-top: 50rpx;
+}
+
+.line {
+    height: 2rpx;
+    width: 350rpx;
+    background: lightgray;
+    margin-left: 20rpx;
+}
+
+.userinfo-nickname {
+    font-size: 14px;
+    margin-top: 60rpx;
+    margin-left: 30rpx;
+    color: gray;
+}

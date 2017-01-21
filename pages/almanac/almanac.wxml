@@ -1,0 +1,36 @@
+<!--pages/almanac/almanac.wxml-->
+<view class="content">
+    <view class="lunar">
+        <text>{{yinli}}</text>
+    </view>
+
+    <view class="support" bindlongtap="longtap">
+        <view class="yi">
+            <image src="../../images/yi.png" class="yi-item1"></image>
+            <text class="yi-item2">{{yi}}</text>
+        </view>
+        <view class="wuxing">五行:<text>{{wuxing}}</text></view>
+        <view class="chongsha">冲煞:<text>{{chongsha}}</text></view>
+        <view class="baiji">百忌:<text>{{baiji}}</text></view>
+        <view class="jishen">吉神:<text>{{jishen}}</text></view>
+        <view class="xiongshen">凶神:<text>{{xiongshen}}</text></view>
+        
+        <view class="ji">
+            <image src="../../images/ji.png" class="ji-item1"></image>
+            <text class="ji-item2">{{ji}}</text>
+        </view>
+    </view>
+
+    <view class="bottom">
+        <view  bindtap="bindViewTap" class="userinfo">
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"
+            background-size="cover"></image>
+                <view class="line-yangli">
+                    <view class="yangli">{{yangli}}</view>
+                    <view class="line"></view>
+                </view>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </view>
+    </view>
+
+</view>
